@@ -1,1 +1,14 @@
+com/example/sfgdi/controllers/Proper4tInjectedConroller.class
+com/example/sfgdi/services/GreetingService.class
+com/example/sfgdi/services/PrimaryGreetingService.class
+com/example/sfgdi/controllers/SetterInjectedController.class
+com/example/sfgdi/services/LifeCycleDemoBean.class
+com/example/sfgdi/controllers/ConstructorInjectedController.class
+com/example/sfgdi/controllers/I18nController.class
+com/example/sfgdi/controllers/MyController.class
+com/example/sfgdi/services/I18nEnglishGreetingService.class
+com/example/sfgdi/services/PropertyInjectedGreetingService.class
+com/example/sfgdi/services/ConstructorGreetingService.class
+com/example/sfgdi/services/SetterGreetingService.class
 com/example/sfgdi/SfgDiApplication.class
+com/example/sfgdi/services/I18nSpanishGreetingService.class

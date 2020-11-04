@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.example.services", "com.example"})
+@ComponentScan(basePackages = {"com.example.sfgdi.services", "com.example"})
 //chiar daca sunt bean-uri in alte parti, @ComponentScan le gaseste si le foloseste /from base down
 public class SfgDiApplication {
 

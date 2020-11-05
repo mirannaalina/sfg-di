@@ -13,6 +13,8 @@ import org.springframework.context.annotation.ComponentScan;
 //chiar daca sunt bean-uri in alte parti, @ComponentScan le gaseste si le foloseste /from base down
 public class SfgDiApplication {
 
+	//YAML another markup language
+
 	public static void main(String[] args) {
 
 		ApplicationContext ctx = SpringApplication.run(SfgDiApplication.class, args);

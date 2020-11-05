@@ -1,0 +1,35 @@
+#YAML -another markup language
+#comm
+
+name: Miranna
+
+names: #comment
+    -Alina
+    -Mir
+    -S
+
+pound_sign: "#"
+
+book:
+    author: Tes
+    publisher: random house
+
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no
+
+include_new_lines: |
+
+  sdssd  sdasds  sds
+  sdsd   ddd   wfff
+  sss sss   ffg
+
+ignore_new_lines: >
+  this is
+  just one long
+  string

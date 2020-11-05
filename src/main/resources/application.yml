@@ -2,3 +2,9 @@ sfgdi:
     jms:  Mirana
     password: ss
     url: ssdsda
+
+
+---
+#file separation ---
+spring:
+  profiles: en5

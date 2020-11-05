@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Profile;
 @Configuration
 public class GreetingServiceConfig {
 
-    @Bean
-    GreetingServiceFactory greetingServiceFactory(GreetingRepository repository){
-        return new GreetingServiceFactory(repository);
-    }
+//    @Bean
+//    GreetingServiceFactory greetingServiceFactory(GreetingRepository repository){
+//        return new GreetingServiceFactory(repository);
+//    }
 
     @Bean
     @Primary

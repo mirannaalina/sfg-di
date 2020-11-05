@@ -16,18 +16,18 @@ public class GreetingServiceConfig {
 //        return new GreetingServiceFactory(repository);
 //    }
 
-    @Bean
-    @Primary
-    @Profile({"default","en"})
-    GreetingService  primaryGreetingService(GreetingServiceFactory greetingServiceFactory){
-        return greetingServiceFactory.createGreetingService("en");
-    }
+//    @Bean
+//    @Primary
+//    @Profile({"default","en"})
+//    GreetingService  primaryGreetingService(GreetingServiceFactory greetingServiceFactory){
+//        return greetingServiceFactory.createGreetingService("en");
+//    }
 
-    @Bean
-    @Primary
-    @Profile({"default","es"})
-    GreetingService  primarySpanishGreetingService(GreetingServiceFactory greetingServiceFactory){
-        return greetingServiceFactory.createGreetingService("es");
-    }
+//    @Bean
+//    @Primary
+//    @Profile({"default","es"})
+//    GreetingService  primarySpanishGreetingService(GreetingServiceFactory greetingServiceFactory){
+//        return greetingServiceFactory.createGreetingService("es");
+//    }
 
 }

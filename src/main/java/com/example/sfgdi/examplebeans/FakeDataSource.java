@@ -12,7 +12,7 @@ public class FakeDataSource {
         return username;
     }
 
-    public void setUser(String user) {
+    public void setUsername(String user) {
         this.username = user;
     }
 
